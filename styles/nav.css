@@ -1,0 +1,26 @@
+/* Costumo deixar comentários nas propriedades e valores que não vejo com tanta frequência, durante a revisão do projeto, isso me ajuda a fixar esse conhecimento. */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px; /* Padding no Sentido Y (Valores: Top Bottom;)*/
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: 24px; /* Similar a um padding, porém uma propriedade do display flex, é o espaço entre os elementos. */
+
+    padding-block: 8px;  
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover; /* Ajuda a manter o dimensionamento na imagem dentro do seu container, sem perder qualidade ou proporção*/
+    border-radius: 50%;
+}
