@@ -44,3 +44,26 @@ header .container{
     align-items: center;
     gap: 8px;
 }
+
+/* Area do mobile */
+
+@media (max-width: 768px){
+    
+    body{
+        background-color: #F5F5F5;
+        padding: 1rem;
+    }
+
+    #profile{
+        flex-direction: column;
+    }
+
+    #profile-main-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #info{
+        padding-top: 1rem;
+    }
+}
