@@ -24,3 +24,29 @@ nav ul li:last-child img{
     object-fit: cover; /* Ajuda a manter o dimensionamento na imagem dentro do seu container, sem perder qualidade ou proporção*/
     border-radius: 50%;
 }
+
+/* Area do mobile */
+
+@media (max-width: 768px) {
+
+    .container{
+        padding: 0.5rem;
+    }
+
+    #primary-menu{
+        display: flex;
+        margin-left: auto;
+    }
+
+    #explore, #travels{
+        display: none;
+    }
+
+    #profile-pic{
+        order: 4;
+    }
+
+    #glass{
+        order: 3;
+    }
+}
