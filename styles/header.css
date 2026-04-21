@@ -47,10 +47,10 @@ header .container{
 
 /* Area do mobile */
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     
     body{
-        background-color: #F5F5F5;
+        background-color: var(--surface-color);
         padding: 1rem;
     }
 

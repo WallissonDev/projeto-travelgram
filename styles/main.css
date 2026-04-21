@@ -10,3 +10,17 @@ main img{
     height: 286px;
     object-fit: cover;
 }
+
+/* Area do mobile */
+
+@media (max-width: 768px){
+
+    main{
+        justify-content: center;
+    
+        & img{
+            width: 350px;
+            height: 350px;
+        }
+    }
+}
